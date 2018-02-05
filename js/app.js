@@ -26,3 +26,13 @@ class Elevator {
         }
     }
 }
+// initalisation
+(function() {
+    // je crée mon instance
+    let myElevator = new Elevator(-1, 10);
+
+    myElevator.goUp();
+    myElevator.goDown();
+    // j'affiche l'etat de l'ascenseur
+    console.log(myElevator);
+})();
